@@ -39,9 +39,47 @@ nav a{
     border-radius: 30px;
 }
 .banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
     background-image: url(/src/images/Hero\ \(2\).svg);
     background-position:center ;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.banner_titulo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid black;
+    height: 263px;
+    width: 666px;
+    gap: 20px;/* modificar este gap */
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 666px;
+    height: 140px;
+    font-family:'Helvetica', sans-serif;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.button_claim_free{
+    width: 162px;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgba(194, 78, 61, 1);
+    border-radius: 20px;
+}
+.seta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
 }
