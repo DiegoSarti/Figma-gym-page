@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+    background-image: url(/src/images/Hero\ \(2\).svg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.header {
+    display: flex;
+    height: 84px;
+    align-items: center;
+    justify-content: center;
+}
+.header_interno {
+    display: flex;
+    justify-content: space-between;
+    height: 46px;
+    width: 1250px;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+nav a{
+    color: white;
+}
+.Free_Trial{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    width: 96px;
+    background-color: rgba(194, 78, 61, 1);
+    border-radius: 30px;
+}
