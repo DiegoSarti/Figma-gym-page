@@ -1,15 +1,17 @@
 body {
     height: 100vh;
-    background-image: url(/src/images/Hero\ \(2\).svg);
-    background-size: cover; 
-    background-repeat: no-repeat; 
 }
 
 .header {
+    position: fixed;
+    top:0;
+    left:0;
     display: flex;
     height: 84px;
+    width: 100%;
     align-items: center;
     justify-content: center;
+    color: rgba(0, 0, 0, 0);
 }
 .header_interno {
     display: flex;
@@ -35,4 +37,11 @@ nav a{
     width: 96px;
     background-color: rgba(194, 78, 61, 1);
     border-radius: 30px;
+}
+.banner{
+    height: 100vh;
+    background-image: url(/src/images/Hero\ \(2\).svg);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
