@@ -42,6 +42,7 @@ nav a{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction:column;
     height: 100vh;
     background-image: url(/src/images/Hero\ \(2\).svg);
     background-position:center ;
@@ -52,10 +53,9 @@ nav a{
     display: flex;
     align-items: center;
     flex-direction: column;
-    border: 3px solid black;
-    height: 263px;
+    height: 300px;
     width: 666px;
-    gap: 20px;/* modificar este gap */
+    
 }
 .titulo{
     display: flex;
@@ -76,10 +76,20 @@ nav a{
     justify-content: center;
     background-color:  rgba(194, 78, 61, 1);
     border-radius: 20px;
+    margin-top: 25px;
 }
 .seta{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
+}
+.Classes{
+    width: 100%;
+    height: 108px;
+    border: solid black 3px;
+}
+.classes_box{
+    width: 220px;
+    height: 48px;
 }
